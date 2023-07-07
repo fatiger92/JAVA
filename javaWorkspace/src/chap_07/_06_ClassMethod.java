@@ -8,7 +8,7 @@ public class _06_ClassMethod {
 //        BlackBox b2 = new BlackBox();
 //        b2.CallServiceCenter();
 
-        BlackBox.CallServiceCenter();
+        BlackBox.callServiceCenter();
 
         String s = String.valueOf(3); // 이것도 Static이 붙어있음.
     }

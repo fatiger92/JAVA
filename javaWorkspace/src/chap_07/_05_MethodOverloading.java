@@ -5,13 +5,13 @@ public class _05_MethodOverloading {
         BlackBox b1 = new BlackBox();
         b1.modelName = "검둥이";
 
-        b1.Record(false, false, 10);
+        b1.record(false, false, 10);
         System.out.println("-----------------------------");
-        b1.Record(true, false, 3);
+        b1.record(true, false, 3);
         System.out.println("-----------------------------");
-        b1.Record(true,true, 5);
+        b1.record(true,true, 5);
         System.out.println("-----------------------------");
-        b1.Record();
+        b1.record();
 
         // String
         String s = "BlackBox";
