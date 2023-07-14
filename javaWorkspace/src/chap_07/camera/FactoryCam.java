@@ -11,6 +11,6 @@ public class FactoryCam extends Camera {
     }
 
     public void showMainFeature(){
-        System.out.println(this.name + "의 주요 기능 : 사진 촬영, 동영상 녹화");
+        System.out.println(this.name + "의 주요 기능 : 화재 감지");
     }
 }
