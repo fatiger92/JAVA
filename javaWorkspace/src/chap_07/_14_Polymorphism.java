@@ -48,5 +48,10 @@ public class _14_Polymorphism {
             ((SpeedCam)speedCam).checkSpeed();
             ((SpeedCam)speedCam).recognizeLicensePlate();
         }
+
+        Object[] objs = new Object[3];
+        objs[0] = new Camera();
+        objs[1] = new FactoryCam();
+        objs[2] = new SpeedCam();
     }
 }
