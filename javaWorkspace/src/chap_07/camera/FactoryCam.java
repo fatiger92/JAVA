@@ -1,9 +1,16 @@
 package chap_07.camera;
 
 // FactoryCam is a camera. (IS-A)
-public class FactoryCam extends Camera {
-    public FactoryCam() { // 자식 클래스
-        this.name = "공장 카메라";
+public class FactoryCam extends Camera { // 자식 클래스
+    public FactoryCam() {
+        // this.name = "공장 카메라";
+        super("공장 카메라");
+    }
+
+    @Override
+    public void recordVideo(){
+        super.recordVideo();
+        detectFire();
     }
 
     public void detectFire() {
