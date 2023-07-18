@@ -6,7 +6,7 @@ import chap_07.camera.SpeedCam;
 public class _16_Reference {
     public static void main(String[] args) {
         // 참조
-        // 기본 자료형 = 값 형식 (Primitive Data Types) int, float, double, long, boolean, ...
+        // 기본 자료형 = (Primitive Data Types) int, float, double, long, boolean, ...
         int[] i = new int[3];
         System.out.println(i[0]); // 0
 
